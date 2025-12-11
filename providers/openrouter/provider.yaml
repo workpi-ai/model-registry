@@ -1,0 +1,6 @@
+name: openrouter
+type: aggregator
+auth_type: api_key
+api_key: OPENROUTER_API_KEY
+base_url: https://openrouter.ai/api/v1
+description: "OpenRouter - AI model aggregator with unified API"

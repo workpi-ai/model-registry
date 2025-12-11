@@ -1,0 +1,4 @@
+name: openai-sub
+type: subscription
+auth_type: oauth2
+description: "OpenAI Codex models via subscription (OAuth 2.0)"

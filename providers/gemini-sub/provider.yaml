@@ -1,0 +1,4 @@
+name: gemini-sub
+type: subscription
+auth_type: oauth2
+description: "Google Gemini models via subscription (OAuth 2.0)"

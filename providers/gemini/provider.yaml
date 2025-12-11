@@ -1,0 +1,6 @@
+name: gemini
+type: api
+auth_type: api_key
+api_key: GEMINI_API_KEY
+base_url: https://generativelanguage.googleapis.com/v1beta
+description: "Google Gemini official API"

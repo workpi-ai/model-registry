@@ -1,0 +1,6 @@
+name: qwen-cn
+type: api
+auth_type: api_key
+api_key: DASHSCOPE_API_KEY
+base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+description: "Alibaba Qwen (DashScope) official API (China)"

@@ -1,0 +1,15 @@
+name: amazon.titan-text-premier-v1:0
+
+apis:
+  chat_completion:
+    api_format: bedrock
+    context:
+      max_input: 42000
+      max_output: 32000
+    features:
+      tool_use: false
+      reasoning: false
+      structured_output: false
+    parameters:
+      temperature: 1.0
+      max_tokens: 20000

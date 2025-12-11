@@ -1,0 +1,17 @@
+name: perplexity/sonar-reasoning
+
+apis:
+  chat_completion:
+    api_format: openai
+    endpoint: /chat/completions
+    context:
+      max_input: 127000
+      max_output: 127000
+    features:
+      tool_use: false
+      reasoning: true
+      structured_output: false
+    parameters:
+      temperature: 1.0
+      max_tokens: 20000
+

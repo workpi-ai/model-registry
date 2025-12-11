@@ -1,0 +1,6 @@
+name: moonshot
+type: api
+auth_type: api_key
+api_key: MOONSHOT_API_KEY
+base_url: https://api.moonshot.ai/v1
+description: "Moonshot AI (Kimi) official API (International)"

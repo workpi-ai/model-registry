@@ -1,0 +1,6 @@
+name: openai
+type: api
+auth_type: api_key
+api_key: OPENAI_API_KEY
+base_url: https://api.openai.com/v1
+description: "OpenAI official API"

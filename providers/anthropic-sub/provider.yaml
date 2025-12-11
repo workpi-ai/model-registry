@@ -1,0 +1,4 @@
+name: anthropic-sub
+type: subscription
+auth_type: oauth2
+description: "Anthropic Claude models via subscription (OAuth 2.0)"

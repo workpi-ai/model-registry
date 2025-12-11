@@ -1,0 +1,16 @@
+name: claude-opus-4-1-20250805
+is_deprecated: true
+
+apis:
+  chat_completion:
+    api_format: anthropic
+    context:
+      max_input: 200000
+      max_output: 32000
+    features:
+      tool_use: true
+      reasoning: true
+      structured_output: false
+    parameters:
+      temperature: 0.7
+      max_tokens: 20000

@@ -1,0 +1,16 @@
+name: grok-3
+
+apis:
+  chat_completion:
+    api_format: openai
+    endpoint: /chat/completions
+    context:
+      max_input: 131072
+      max_output: 131072
+    features:
+      tool_use: true
+      reasoning: true
+      structured_output: true
+    parameters:
+      temperature: 1.0
+      max_tokens: 20000

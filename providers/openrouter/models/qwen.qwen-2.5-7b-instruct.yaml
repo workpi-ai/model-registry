@@ -1,0 +1,17 @@
+name: qwen/qwen-2.5-7b-instruct
+
+apis:
+  chat_completion:
+    api_format: openai
+    endpoint: /chat/completions
+    context:
+      max_input: 32768
+      max_output: 32768
+    features:
+      tool_use: false
+      reasoning: false
+      structured_output: false
+    parameters:
+      temperature: 1.0
+      max_tokens: 20000
+

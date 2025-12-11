@@ -1,0 +1,17 @@
+name: google/gemini-2.0-flash-lite-001
+
+apis:
+  chat_completion:
+    api_format: openai
+    endpoint: /chat/completions
+    context:
+      max_input: 1048576
+      max_output: 8192
+    features:
+      tool_use: true
+      reasoning: false
+      structured_output: true
+    parameters:
+      temperature: 1.0
+      max_tokens: 20000
+

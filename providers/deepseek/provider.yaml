@@ -1,0 +1,6 @@
+name: deepseek
+type: api
+auth_type: api_key
+api_key: DEEPSEEK_API_KEY
+base_url: https://api.deepseek.com
+description: "DeepSeek official API"

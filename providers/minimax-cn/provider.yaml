@@ -1,0 +1,6 @@
+name: minimax-cn
+type: api
+auth_type: api_key
+api_key: MINIMAX_CN_API_KEY
+base_url: https://api.minimaxi.com/v1
+description: "MiniMax AI official API (China)"

@@ -1,0 +1,15 @@
+name: gemini-2.5-flash
+
+apis:
+  chat_completion:
+    api_format: gemini
+    context:
+      max_input: 1048576
+      max_output: 65535
+    features:
+      tool_use: true
+      reasoning: true
+      structured_output: true
+    parameters:
+      temperature: 1.0
+      max_tokens: 20000

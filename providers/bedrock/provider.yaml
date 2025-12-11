@@ -1,0 +1,7 @@
+name: bedrock
+type: aggregator
+auth_type: aws_credentials
+api_key: AWS_ACCESS_KEY_ID
+api_secret: AWS_SECRET_ACCESS_KEY
+region: AWS_REGION_NAME
+description: "AWS Bedrock - Managed AI model service"

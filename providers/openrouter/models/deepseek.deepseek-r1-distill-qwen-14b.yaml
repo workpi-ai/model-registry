@@ -1,0 +1,17 @@
+name: deepseek/deepseek-r1-distill-qwen-14b
+
+apis:
+  chat_completion:
+    api_format: openai
+    endpoint: /chat/completions
+    context:
+      max_input: 32768
+      max_output: 16384
+    features:
+      tool_use: false
+      reasoning: true
+      structured_output: true
+    parameters:
+      temperature: 1.0
+      max_tokens: 20000
+

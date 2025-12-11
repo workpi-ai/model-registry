@@ -1,0 +1,16 @@
+name: ft:gpt-4.1-2025-04-14
+
+apis:
+  chat_completion:
+    api_format: openai
+    endpoint: /chat/completions
+    context:
+      max_input: 1047576
+      max_output: 32768
+    features:
+      tool_use: true
+      reasoning: false
+      structured_output: false
+    parameters:
+      temperature: 1.0
+      max_tokens: 20000
