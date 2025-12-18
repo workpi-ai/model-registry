@@ -1,11 +1,12 @@
-name: gemini-3-pro-preview
+name: google/gemini-3-flash-preview
 
 apis:
   chat_completion:
-    api_format: gemini
+    api_format: openai
+    endpoint: /chat/completions
     context:
       max_input: 1048576
-      max_output: 65535
+      max_output: 65536
     features:
       tool_use: true
       thinking: true

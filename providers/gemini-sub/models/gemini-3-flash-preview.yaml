@@ -1,11 +1,11 @@
-name: gemini-3-pro-preview
+name: gemini-3-flash-preview
 
 apis:
   chat_completion:
     api_format: gemini
     context:
-      max_input: 1048576
-      max_output: 65535
+      max_input: 1000000
+      max_output: 64000
     features:
       tool_use: true
       thinking: true
