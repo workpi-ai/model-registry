@@ -1,8 +1,7 @@
-name: gpt-5-codex
-is_deprecated: true
+name: gpt-5.2
 
 agents:
-  - GPT-5 Codex
+  - GPT-5.2
 
 apis:
   chat_completion:
@@ -17,6 +16,7 @@ apis:
         - low
         - medium
         - high
+        - xhigh
       structured_output: true
     parameters:
       temperature: 1.0
