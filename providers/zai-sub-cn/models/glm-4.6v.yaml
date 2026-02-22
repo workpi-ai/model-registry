@@ -1,0 +1,16 @@
+name: glm-4.6v
+
+apis:
+  chat_completion:
+    api_format: openai
+    endpoint: /chat/completions
+    context:
+      max_input: 128000
+      max_output: 8192
+    features:
+      tool_use: true
+      reasoning: false
+      structured_output: true
+    parameters:
+      temperature: 0.7
+      max_tokens: 20000

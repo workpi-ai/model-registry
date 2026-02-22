@@ -1,0 +1,5 @@
+name: zai-sub-cn
+type: subscription
+auth_type: oauth2
+base_url: https://open.bigmodel.cn/api/coding/paas/v4
+description: "Zhipu AI (GLM) coding API via subscription (China)"
