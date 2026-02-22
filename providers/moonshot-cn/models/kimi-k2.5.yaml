@@ -1,11 +1,12 @@
-name: claude-opus-4-6
+name: kimi-k2.5
 
 apis:
   chat_completion:
-    api_format: anthropic
+    api_format: openai
+    endpoint: /chat/completions
     context:
-      max_input: 200000
-      max_output: 64000
+      max_input: 262144
+      max_output: 262144
     features:
       tool_use: true
       reasoning: true

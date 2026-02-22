@@ -1,8 +1,9 @@
-name: claude-opus-4-6
+name: claude-sonnet-4-6
 
 apis:
   chat_completion:
     api_format: anthropic
+    endpoint: /messages
     context:
       max_input: 200000
       max_output: 64000
