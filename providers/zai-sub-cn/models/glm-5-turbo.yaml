@@ -12,7 +12,6 @@ apis:
       tool_use: true
       reasoning: true
       structured_output: true
-      image_input: false
     parameters:
       temperature: 0.7
       max_tokens: 20000
