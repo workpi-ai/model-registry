@@ -1,17 +1,17 @@
-name: gemini-3-pro-preview
-is_deprecated: true
+name: gemini-3.1-pro-preview
 
 apis:
   chat_completion:
     api_format: gemini
     context:
       max_input: 1048576
-      max_output: 65535
+      max_output: 65536
     features:
       tool_use: true
       thinking: true
       thinking_levels: true
       structured_output: true
+      image_input: true
       audio_input: true
       image_output: false
     parameters:
