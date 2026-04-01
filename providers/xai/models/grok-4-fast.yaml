@@ -8,6 +8,7 @@ apis:
       max_input: 2000000
       max_output: 30000
     features:
+      image_input: false
       tool_use: true
       reasoning: true
       structured_output: true
