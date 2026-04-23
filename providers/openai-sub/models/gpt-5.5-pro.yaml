@@ -1,4 +1,4 @@
-name: gpt-5.5
+name: gpt-5.5-pro
 
 apis:
   chat_completion:
@@ -10,8 +10,6 @@ apis:
       tool_use: true
       reasoning: true
       reasoning_levels:
-        - minimal
-        - low
         - medium
         - high
         - xhigh
