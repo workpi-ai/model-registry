@@ -7,7 +7,7 @@ apis:
   chat_completion:
     api_format: codex
     context:
-      max_input: 400000
+      max_input: 272000
       max_output: 128000
     features:
       tool_use: true
