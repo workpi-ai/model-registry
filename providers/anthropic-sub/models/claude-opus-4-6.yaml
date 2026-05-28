@@ -4,7 +4,7 @@ apis:
   chat_completion:
     api_format: anthropic
     context:
-      max_input: 200000
+      max_input: 500000
       max_output: 64000
     features:
       tool_use: true
@@ -12,4 +12,4 @@ apis:
       structured_output: true
     parameters:
       temperature: 1.0
-      max_tokens: 20000
+      max_tokens: 50000
