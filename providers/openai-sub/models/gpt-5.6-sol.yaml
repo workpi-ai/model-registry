@@ -10,7 +10,7 @@ apis:
       image_input: true
       tool_use: true
       reasoning: true
-      reasoning_levels:
+      reasoning_efforts:
         - low
         - medium
         - high
@@ -21,4 +21,4 @@ apis:
     parameters:
       temperature: 1.0
       max_tokens: 20000
-      reasoning_level: low
+      reasoning_effort: low

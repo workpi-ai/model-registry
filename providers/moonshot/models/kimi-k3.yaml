@@ -11,11 +11,11 @@ apis:
       image_input: true
       tool_use: true
       reasoning: true
-      reasoning_levels:
+      reasoning_efforts:
         - max
       structured_output: true
     parameters:
       temperature: 1.0
       top_p: 0.95
       max_tokens: 131072
-      reasoning_level: max
+      reasoning_effort: max
