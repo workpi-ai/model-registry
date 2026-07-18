@@ -1,0 +1,21 @@
+name: kimi-k3
+
+apis:
+  chat_completion:
+    api_format: openai
+    endpoint: /chat/completions
+    context:
+      max_input: 1048576
+      max_output: 1048576
+    features:
+      image_input: true
+      tool_use: true
+      reasoning: true
+      reasoning_levels:
+        - max
+      structured_output: true
+    parameters:
+      temperature: 1.0
+      top_p: 0.95
+      max_tokens: 131072
+      reasoning_level: max
