@@ -1,0 +1,6 @@
+name: moonshot-sub-cn
+type: subscription
+auth_type: api_key
+api_key: MOONSHOT_SUB_API_KEY
+base_url: https://api.kimi.com/coding/v1
+description: "Kimi Code subscription API (OpenAI-compatible; same coding endpoint as moonshot-sub)"
